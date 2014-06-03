@@ -1,0 +1,70 @@
+/* Your Website Styles */
+
+body {
+  background: #171F2E;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  color: #D357BE;
+  font-size: 4em;
+  letter-spacing: .02em;
+  margin: 2% 0 2% 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/* Gallery Stying */
+
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  margin: 1% 0 1% 0;
+}
+
+img {
+  border: 10px solid #D357BE;
+}
+
+
+.gallery .controls {
+  position: absolute;
+  padding-top: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #5E9EB0;
+  opacity: .8;
+}
+
+.gallery .controls img:hover {
+  border: 5px solid #D357BE;
+  opacity: 1;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .25em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: 1s;
+}
+
+
+/* Show Grid */
+showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
